@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .esquerda {
+    background-color: brown;
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .caixa-verde {
+    background-color: rgb(20, 125, 20);
+    height: 55px;
+    width: %;
+    margin: 10px auto;
+  }
+  
+  .caixa-preta {
+    background-color: #230000;
+    height: 25px;
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .direita {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .topo-direita {
+    position: relative;
+    height: 60px;
+  }
+  
+  .fundo-direita {
+    position: relative;
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .caixa-azul {
+    background-color: blue;
+    width: 120px;
+    height: 80px;
+    position: relative;
+  }
+  
+  .sobreposta {
+    position: absolute;
+    background-color: #230000;
+    width: 60px;
+    height: 20px;
+    top: 0;
+    right: 0;
+  }
+  
